@@ -6,14 +6,10 @@ First, the user with worst pattern to learn is selected by creating multiple mod
 Once the target user is selected, we have created a model and concatenated the data of all other 30 users to train our model with various profiles. 
 Result: The model performs well with 10 estimators and default hyperparameters when using Random Forest.(The model is not optimised for excellence Yet)
 ## Result of forecasting using general rolling features and 6 temporal features
-![ScreenShot](https://github.com/amitt00/Load_Forecasting/blob/main/Result%20Images/Univariate_30Feature_result.png)
+![alt text](https://github.com/amitt00/Load_Forecasting/blob/main/Result%20Images/Univariate_30Feature_result.png)
 ## Result of forecasting same data with featureset 2 (27 features)
 ![alt text](https://github.com/amitt00/Load_Forecasting/blob/main/Result%20Images/Univariate_27Feature_result.png)
 
-<details>
-  <summary>Some summary</summary>
-  <img alt="Description" src="https://github.com/amitt00/Load_Forecasting/blob/main/Result%20Images/Univariate_30Feature_result.png">
-</details>
 
 # MultiVariate Load analysis
 The aim is to forecast the load of given panama country.
