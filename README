@@ -1,2 +1,15 @@
 
-Univariate and multivariate Forecasting of electrical load.
+#Univariate Load Forecasting
+The aim is to use immenent features in Univariate analysis, and demonstrate a comparision based on two different analogy of rolling feature.
+Hourly Electrical Load data(Kw) of 31 users is used for forecasting.
+First, the user with worst pattern to learn is selected by creating multiple models and testing each user with it.
+Once the target user is selected, we have created a model and concatenated the data of all other 30 users to train our model with various profiles. 
+Result: The model performs well with 10 estimators and default hyperparameters when using Random Forest.(The model is not optimised for excellence Yet)
+
+
+
+
+#MultiVariate Load analysis
+The aim is to forecast the load of given panama country.
+Dataset: Dataset is taken from kaggle and pre processed
+LSTM is used as a base model for forecasting. To improve the results bayesian optimisation is used and the result is shown via graph in code.
