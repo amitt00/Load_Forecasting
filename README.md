@@ -12,7 +12,7 @@ Result: The model performs well with 10 estimators and default hyperparameters w
 ![alt text](https://github.com/amitt00/Load_Forecasting/blob/main/Result%20Images/Univariate_27Feature_result.png)
 
 
-# MultiVariate Load analysis
+# MultiVariate Load Forecasting
 The aim is to forecast the load of given panama country.
 Dataset: Dataset is taken from kaggle and pre processed
 LSTM is used as a base model for forecasting. To improve the results bayesian optimisation is used and the result is shown via graph in code.
